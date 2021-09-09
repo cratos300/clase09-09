@@ -1,0 +1,14 @@
+<div class="card mb-4 box-shadow">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal"></h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title pricing-card-title"><small class="text-muted">/ mo</small></h1>
+      <input type="text" [(ngModel)] = "nuevoProducto.nombre">
+      <br>
+      <input type="number" [(ngModel)] = "nuevoProducto.precio">
+      <br>
+      <input type="text" [(ngModel)] = "nuevoProducto.tipo">
+      <button type="button" class="btn btn-lg btn-block btn-outline-primary"(click) = "crearProducto()">Crear Producto</button>
+    </div>
+  </div>
